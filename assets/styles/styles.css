@@ -234,7 +234,7 @@ footer p {
         'nav gallery'
         'nav about'
         'nav footer';
-        grid-template-rows: auto auto auto auto;
+        grid-template-rows: 300px auto auto auto;
         grid-template-columns: auto auto;
     }
 
@@ -253,10 +253,6 @@ footer p {
         display: flex;
         flex-direction: column;
         gap: 20px;
-    }
-
-    header {
-        height: 600px;
     }
 
 }
