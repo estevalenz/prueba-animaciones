@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helenica</title>
+    <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="title">
+            <img src="./assets/imgs/logo.webp" alt="Logo Mitos y Leyendas">
+            <h1>HELENICA</h1>
+        </div>
+        <ul class="nav-menu hidden">
+            <li><a href="#header">Inicio</a></li>
+            <li><a href="#collection">Galería</a></li>
+            <li><a href="#about">Acerca</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+        <div class="nav-menu-logo">
+            <i class="fa-solid fa-bars fa-xl menu-icon"></i>
+        </div>
+    </nav>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuIcon = document.querySelector('.menu-icon');
+            const navMenu = document.querySelector('.nav-menu');
+
+            menuIcon.addEventListener('click', function() {
+                navMenu.classList.toggle('hidden');
+            });
+        });
+    </script>
+
+
+
+    <header id="header">
+        <h1>HELENICA</h1>
+    </header>
+
+
+
+    <section class="gallery" id="collection">
+        <article>
+            <img src="./assets/imgs/alejandro_magno.webp" alt="Alejandro Magno">
+        </article>
+        <article>
+            <img src="./assets/imgs/antorcha_olimpica.webp" alt="Antorcha Olimpíca">
+        </article>
+        <article>
+            <img src="./assets/imgs/cronos.webp" alt="Cronos">
+        </article>
+        <article>
+            <img src="./assets/imgs/gran_zeus.webp" alt="Gran Zeus">
+        </article>
+        <article>
+            <img src="./assets/imgs/la_iliada.webp" alt="La Iliada">
+        </article>
+        <article>
+            <img src="./assets/imgs/ofrenda_a_los_dioses.webp" alt="Ofrenda a los Dioses">
+        </article>
+        <article>
+            <img src="./assets/imgs/thanatos.webp" alt="Thanatos">
+        </article>
+    </section>
+
+
+
+    <section class="about" id="about">
+        <h2>Acerca de</h2>
+        <p><strong>Helénica es la novena edición de las cartas Mitos y Leyendas.</strong></p>
+        <p>La edición cubre la historia de la Antigua Grecia, la cual comienza con las civilizaciones minoica y micénica, alrededor del año 1600 a.C. La religión griega estaba conformada por un grupo de dioses olímpicos venerados alrededor del Mediterráneo, los cuales eran liderados por Zeus, dios del rayo. Los mitos griegos estaban protagonizados por un grupo de humanos heroicos, con ascendencia divina en muchas ocasiones. Entre los mitos más famosos podemos encontrar: la misión de los Argonautas, la Guerra de Troya, los viajes de Odiseo y las proezas de Heracles, Teseo y Perseo. En el aspecto histórico, los griegos debieron luchar contra la invasión persa en el año 480 a.C., guerra en donde destacan el rey espartano Leónidas y el líder ateniense Temístocles. En los años posteriores, Atenas floreció durante el liderazgo de Pericles, y gracias al trabajo de filósofos como Sócrates, Platón y Aristóteles. En el año 338 a.C. Filipo II de Macedonia conquista Grecia, y su hijo, Alejandro Magno, expandiría la cultura griega por Asia y Egipto, lugar en donde el griego Ptolomeo iniciaría su propia dinastía. Grecia cae bajo el control del Imperio Romano en el año 146 a.C. </p>
+    </section>
+
+
+
+    <footer id="contact">
+        <div class="contact-us">            
+            <h4 style="margin-top: 0px;">Contactanos</h4>
+            <div class="contact-us-icons">
+                <p><i class="fa-solid fa-phone"></i>+56 9 5235 3271</p>
+                <p><i class="fa-solid fa-envelope"></i>helenica@myl.cl</p>
+            </div>
+        </div>
+
+        <div class="visit-us">
+            <h4>Visitanos!</h4>
+            <div class="visit-us-icons">
+                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
